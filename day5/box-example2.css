@@ -1,0 +1,151 @@
+*{
+    margin:0;
+    padding:0;
+}
+ul,li{
+    list-style: none;
+}
+a{
+    color:inherit;
+    text-decoration: none;
+}
+
+/*라이브러리*/
+.cell{
+    float:left;
+}
+.row::after{
+    content: "";
+    display: block;
+    clear:both;
+}
+.con{
+  width:1100px;
+  margin:0 auto;
+}
+
+/*스타일*/
+.header-wrap1{
+  height:100px;
+  background-color: #ddd;
+  text-align:center;
+  padding-top:20px;
+  box-sizing:border-box;
+  transition:0.5s;
+}
+
+.header-wrap1:hover{
+  background-color: black;
+  color: white;
+}
+
+.banner-wrap2{
+  height:300px;
+  background-color:#ffffff;
+  margin-top:20px;
+}
+.banner{
+  width:880px;
+  height:300px;
+  background-color:#ddd;
+  margin-right:20px;
+  padding-top:120px;
+  text-align:center;
+  box-sizing:border-box;
+  transition:0.5s;
+}
+
+.banner:hover{
+   background-color: black;
+   color:white;
+}
+.login{
+  width:200px;
+  height:300px;
+  background-color:#ddd;
+  text-align:center;
+  box-sizing:border-box;
+  padding-top:120px;
+  transition:0.5s;
+}
+
+.login:hover{
+    background-color: black;
+    color: white;
+  }
+
+.section01-wrap{
+  height:500px;
+  background-color:white;
+  margin-top:20px;
+}
+
+.section01-left{
+  width:880px;
+  height:500px;
+  background-color: #ddd;
+  border:20 solid white;
+  text-align:center;
+  padding-top:230px;
+  box-sizing:border-box;
+  transition:0.5s;
+}
+.section01-left:hover{
+    background-color: black;
+    color: white;
+  }
+
+.section01-right{
+  width:200px;
+  height:500px;
+  border:20 solid white;
+  background-color:#ddd;
+  margin-left:20px;
+  box-sizing:border-box;
+  text-align:center;
+  padding-top:230px;
+  transition:0.5s;
+}
+.section01-right:hover{
+    background-color: black;
+    color: white;
+  }
+
+.section02-wrap{
+  height:500px;
+  background-color:#ffffff;
+  margin-top:20px;
+}
+
+.content{
+  width:360px;
+  height:500px;
+  border:10 solid white;
+  background-color:#ddd;
+  box-sizing:border-box;
+  margin-right:10px;
+  text-align:center;
+  padding-top:210px;
+  transition:0.5s;
+}
+.content.last{
+  margin-right:0px;
+}
+.content:hover{
+    background-color: black;
+    color: white;
+  }
+
+.footer{
+  height:100px;
+  background-color:#ddd;
+  margin-top:20px;
+  text-align:center;
+  padding-top:30px;
+  box-sizing:border-box;
+  transition: 0.5s;
+}
+.footer:hover{
+    background-color: black;
+    color: white;
+  }
